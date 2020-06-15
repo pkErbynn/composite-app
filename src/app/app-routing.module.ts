@@ -12,7 +12,7 @@ const routes: Routes = [
     path: "app2",
     loadChildren: "../../projects/app2/src/app/app.module#App2SharedModule",
   },
-  { path: "**", redirectTo: "/app1/one" },
+  { path: "**", redirectTo: "/app1/v1" },
 ];
 
 @NgModule({
