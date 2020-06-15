@@ -8,8 +8,8 @@ const routes: Routes = [
   // no "/" prepend
   { path: "app2/v1", component: App2View1Component },
   { path: "app2/v2", component: App2View2Component },
-  { path: "app2", component: AppComponent },
-  // { path: "app2", redirectTo: "app2/v1" },
+  // { path: "app2", component: AppComponent },
+  { path: "app2", redirectTo: "app2/v1" },
 ];
 
 @NgModule({
